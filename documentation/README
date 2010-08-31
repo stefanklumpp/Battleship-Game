@@ -1,0 +1,53 @@
+ABOUT
+-----
+
+Battleship is a single and multiplayer strategy game. It was developed in Spring 2006 by Stefan Klumpp and Felix Ruess as an examination project at the University of Applied Sciences Ulm (HS-Ulm)
+
+This software is Open Source and licensed under the GPL. It is written in C++ and Qt, an open source, cross-platform graphical widget toolkit.
+
+Battleship runs under UNIX, UNIX-like operating systems, Mac OS X and MS Windows.
+
+FYI: there are for sure better battleship clones out there, but I still wanted to provide the source code as an educational resource for anyone learning Qt or game development in general.
+
+
+INSTRUCTIONS
+------------
+
+To start a new game select "Single Player" from the game menu or
+just press the "New Game" Button on the main window.
+
+(The network game is still in development and is currently in 
+a testing and debugging phase. For this reason it isn't selectable for
+ordinary users, yet.)
+
+Once the game has been started, every player puts his ships in his
+own field. In your case the left one.
+Just follow the notices in the console output, they're almost
+self-explanatory.
+It shows the type of ship, which is currently selected and
+also its size in boxes.
+With the right mouse button you can toggle the alignment
+of your ship. The default value at the beginning is "horizontal".
+
+After all players have set up their fleet, a message is announced and
+the battle can take place. Also your mouse icon will change into
+a cross-hair for better aiming.
+
+The first turn is yours (for network game there will be a random choice).
+Just fire (click) on the enemy field, where you assume the hostile ship.
+If it is a hit, the box will turn into yellow, if the whole ship is
+destroyed all associated boxes will turn into red.
+If it was a miss, the blue sea will turn into dark blue.
+
+If you made a hit, it's your part again. If you missed, it's
+the opponents turn.
+
+If it seems you're loosing just press the "EWO-Mode" Button,
+and you'll get some mental assistance ;-)
+
+As soon as the fleet of one participant is destroyed the battle will
+stop and the winner will be announced.
+
+Enjoy the game.
+
+
